@@ -1,0 +1,16 @@
+{
+    "image": "https://woai.io/nft-data/zero/art/p.png",
+    "external_url": "https://woai.io/",
+    "seller_fee_basis_points": 250,
+    "fee_recipient": "0xa7c7aaD22974d81EBd5B7C4B06EEA3911d33e2A9",
+    "attributes": [
+        {
+            "trait_type": "Ungenerated",
+            "value": "True"
+        },
+        {
+            "trait_type": "Failed",
+            "value": "False"
+        }
+    ]
+}
