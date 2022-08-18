@@ -3,9 +3,9 @@ import json
 #NOTICE: This file may need to be changed with IPFS migration
 
 #Global definitions
-##Base URI of the smart contract is "https://woai.io/nft-data/zero/" until the IPFS migration
-##This will means the json files will be accessed from "https://woai.io/nft-data/zero/{tokenId}.json"
-baseURI = "https://woai-data.woai.io/zero/"
+##Base URI of the smart contract is "http://woai-data.woai.io/zero/" until the IPFS migration
+##This will means the json files will be accessed from "http://woai-data.woai.io/zero/{tokenId}.json"
+baseURI = "http://woai-data.woai.io/zero/"
 
 def generate(floor,ceiling):
     for i in range(floor,ceiling+1):
