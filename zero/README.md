@@ -4,9 +4,9 @@ This repository contains all data related to the WOAI/Zero -collection NFTs.
 
 Each json file matches with the ID of the NFT in question. I.e.: WOAI/Zero/1 maps to 1
 
-The contents of this directory are to be hosted at woai.io/nft-data/zero/ with the exception of the "generators" sub-directory.
+The contents of this directory are to be hosted at https://woai-data.woai.io/zero/ with the exception of the "generators" sub-directory.
 
-Once all NFTs have been minted, or at least most of them, the contents of this folder will be uploaded onto an IPFS instance. Following this change, the baseURI of the WOAI/Zero smart contract will be changed to reflect the right IPFS location. Until then, the baseURI will be https://woai.io/nft-data/zero/
+Once all NFTs have been minted, or at least most of them, the contents of this folder will be uploaded onto an IPFS instance. Following this change, the baseURI of the WOAI/Zero smart contract will be changed to reflect the right IPFS location. Until then, the baseURI will be https://woai-data.woai.io/zero/
 
 ## Generators
 The generators -directory contains a python generator for creating the relevant json files. Please note that the generator does not work for the *p* and *f* -files (pending generation and failed generation, respectively); they have been added manually.
